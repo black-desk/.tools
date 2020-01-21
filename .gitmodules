@@ -1,0 +1,3 @@
+[submodule "clash-rule"]
+	path = clash-rule
+	url = https://github.com/black-desk/clash-rule
