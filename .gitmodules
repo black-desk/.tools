@@ -6,4 +6,7 @@
 	url = https://github.com/neovim/neovim.git
 [submodule "st"]
 	path = st
-	url = https://git.suckless.org/st
+  url = https://git.suckless.org/st
+[submodule "ccls"]
+  path = ccls
+  url = https://github.com/MaskRay/ccls
