@@ -1,0 +1,12 @@
+2020-01-24 16:27:52 [INFO] pandownload version: 2.2.2
+2020-01-24 16:27:54 [INFO] aria2 websocket connection opened (127.0.0.1:36997)
+2020-01-24 16:27:54 [INFO] aria2 version: 1.35.1
+2020-01-24 16:27:54 [INFO] aria2 json-rpc path: http://token:pandownload@127.0.0.1:36997/jsonrpc
+2020-01-24 16:28:02 [INFO] create main window
+2020-01-24 16:29:38 [WARN] ID#1 - 未登录网盘账号(-1) FILE="C:/Users/81472/Downloads/《428被封锁的涩谷》PSP中文版.zip" SIZE="1535466052"
+2020-01-24 16:29:38 [WARN] ID#1 - 未登录网盘账号(-1) FILE="C:/Users/81472/Downloads/《428被封锁的涩谷》PSP中文版.zip" SIZE="1535466052"
+2020-01-24 16:29:39 [WARN] ID#1 - 未登录网盘账号(-1) FILE="C:/Users/81472/Downloads/《428被封锁的涩谷》PSP中文版.zip" SIZE="1535466052"
+2020-01-24 16:30:14 [INFO] close main window
+2020-01-24 16:30:14 [WARN] aria2 websocket connection closed (127.0.0.1:36997), code: 1000 (Normal close), reason: aria2 shutdown
+2020-01-24 16:30:15 [INFO] websocket client stop
+2020-01-24 16:30:15 [INFO] exit

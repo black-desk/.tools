@@ -1,3 +1,9 @@
 [submodule "clash-rule"]
 	path = clash-rule
 	url = https://github.com/black-desk/clash-rule
+[submodule "neovim"]
+	path = neovim
+	url = https://github.com/neovim/neovim.git
+[submodule "st"]
+	path = st
+	url = https://git.suckless.org/st

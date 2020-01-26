@@ -1,0 +1,14 @@
+2020-01-24 16:30:15 [INFO] pandownload version: 2.2.2
+2020-01-24 16:30:17 [INFO] aria2 websocket connection opened (127.0.0.1:36875)
+2020-01-24 16:30:17 [INFO] aria2 version: 1.35.1
+2020-01-24 16:30:17 [INFO] aria2 json-rpc path: http://token:pandownload@127.0.0.1:36875/jsonrpc
+2020-01-24 16:30:17 [INFO] create main window
+2020-01-24 16:34:42 [INFO] verify cookie (614)
+2020-01-24 16:34:47 [INFO] user login success (1076181694): black_desk
+2020-01-24 16:38:25 [WARN] ID#1 - No URI available.(24) FILE="C:/Users/81472/Downloads/《428被封锁的涩谷》PSP中文版.zip" SIZE="1535466052"
+2020-01-24 16:38:45 [WARN] ID#1 - The response status is not successful. status=403(22) FILE="C:/Users/81472/Downloads/《428被封锁的涩谷》PSP中文版.zip" SIZE="1535466052"
+2020-01-24 16:38:47 [WARN] ID#1 - The response status is not successful. status=403(22) FILE="C:/Users/81472/Downloads/《428被封锁的涩谷》PSP中文版.zip" SIZE="1535466052"
+2020-01-24 16:42:31 [INFO] verify cookie (632)
+2020-01-24 16:42:35 [INFO] user login success (1342212601): 3602000
+2020-01-24 16:50:15 [WARN] request error (0x100000023): https://pan.baidu.com/api/quota 
+2020-01-24 16:51:58 [WARN] ID#1 - No URI available.(22) FILE="C:/Users/81472/Downloads/DraStic-vr2.5.2.0a_build_101.apk" SIZE="16102321"
