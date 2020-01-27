@@ -6,7 +6,7 @@
 	url = https://github.com/neovim/neovim.git
 [submodule "st"]
 	path = st
-  url = https://git.suckless.org/st
+	url = https://github.com/black-desk/st.git
 [submodule "ccls"]
   path = ccls
   url = https://github.com/MaskRay/ccls
