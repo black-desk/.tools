@@ -1,1 +1,6 @@
 clang+llvm-*
+PanDownload/PanData/script
+PanDownload/PanData/share.db
+PanDownload/PanData/task.db
+PanDownload/PanData/log
+PanDownload/PanData/temp
