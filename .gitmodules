@@ -1,6 +1,6 @@
 [submodule "neovim"]
-	path = neovim
-	url = https://github.com/neovim/neovim.git
+  path = neovim
+  url = https://github.com/neovim/neovim.git
 [submodule "ccls"]
   path = ccls
   url = https://github.com/MaskRay/ccls
