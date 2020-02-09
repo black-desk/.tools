@@ -1,7 +1,4 @@
 clang+llvm-*
 go
-PanDownload/PanData/script
-PanDownload/PanData/share.db
-PanDownload/PanData/task.db
-PanDownload/PanData/log
-PanDownload/PanData/temp
+PanDownload/PanData
+anaconda3
