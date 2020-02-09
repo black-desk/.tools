@@ -1,4 +1,5 @@
 clang+llvm-*
+go
 PanDownload/PanData/script
 PanDownload/PanData/share.db
 PanDownload/PanData/task.db
