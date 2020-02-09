@@ -4,3 +4,6 @@
 [submodule "ccls"]
   path = ccls
   url = https://github.com/MaskRay/ccls
+[submodule "mosh"]
+	path = mosh
+	url = https://github.com/mobile-shell/mosh.git
