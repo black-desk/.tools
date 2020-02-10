@@ -7,3 +7,6 @@
 [submodule "mosh"]
 	path = mosh
 	url = https://github.com/mobile-shell/mosh.git
+[submodule "st"]
+	path = st
+	url = https://github.com/black-desk/st.git
