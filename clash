@@ -1,0 +1,26 @@
+
+if grep -q Microsoft /proc/version; then
+  
+  $my_tools_dir/clash-amd64
+
+else
+  
+  if grep -q mokee /proc/version; then
+     
+    $my_tools_dir/clash-arm
+
+  else 
+    
+    if grep -q centos /proc/version; then
+  
+      $my_tools_dir/clash-amd64
+
+    else 
+      
+      $my_tools_dir/clash-amd64
+
+    fi
+
+  fi
+
+fi
