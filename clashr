@@ -1,22 +1,22 @@
 if grep -q Microsoft /proc/version; then
   
-  $my_tools_dir/clash-bin/clashr-amd64
+  $my_tools_dir/clash-bin/clashr-amd64 -d ~/.config/clashr
 
 else
   
   if grep -q mokee /proc/version; then
      
-    $my_tools_dir/clash-bin/clashr-arm
+    $my_tools_dir/clash-bin/clashr-arm -d ~/.config/clashr
 
   else 
     
     if grep -q centos /proc/version; then
   
-      $my_tools_dir/clash-bin/clashr-amd64
+      $my_tools_dir/clash-bin/clashr-amd64 -d ~/.config/clashr
 
     else 
       
-      $my_tools_dir/clash-bin/clashr-amd64
+      $my_tools_dir/clash-bin/clashr-amd64 -d ~/.config/clashr
 
     fi
 
