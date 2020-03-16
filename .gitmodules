@@ -10,3 +10,6 @@
 [submodule "st"]
 	path = st
 	url = https://github.com/black-desk/st.git
+[submodule "youdao-note-electron"]
+	path = youdao-note-electron
+	url = https://github.com/jamasBian/youdao-note-electron.git
