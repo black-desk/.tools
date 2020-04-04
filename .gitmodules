@@ -13,3 +13,6 @@
 [submodule "youdao-note-electron"]
 	path = youdao-note-electron
 	url = https://github.com/jamasBian/youdao-note-electron.git
+[submodule "SSRSpeed"]
+	path = SSRSpeed
+	url = https://github.com/NyanChanMeow/SSRSpeed.git
