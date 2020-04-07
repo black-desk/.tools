@@ -16,3 +16,6 @@
 [submodule "gnvim"]
 	path = gnvim
 	url = https://github.com/vhakulinen/gnvim
+[submodule "clashr"]
+	path = clashr
+	url = https://github.com/BROBIRD/clash.git
