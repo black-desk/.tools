@@ -1,6 +1,8 @@
 clang+llvm-*
 go
-GoLand-2019.3.2
+GoLand*
+pycharm*
+idea-IU*
 PanDownload/PanData
 anaconda3
 code*
