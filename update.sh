@@ -1,11 +1,13 @@
-#!  /usr/bin/bash
+#! /bin/bash
 
 cd $my_tools_dir
 pwd
 gitpull(){
-  DONE=0
+  git checkout $2
+  git reset --hard HEAD
+  DONE=1
   while [ $DONE -ne 0  ]; do
-    git pull --recursive $1
+    git pull --recurse-submodules $1 $2
     let DONE=$?
   done
 }
@@ -15,7 +17,7 @@ echo "--------------------"
 echo "Updating neovim:"
 cd neovim
 pwd
-gitpull master
+gitpull origin master
 make && sudo make install
 cd ..
 pwd
@@ -26,7 +28,7 @@ echo "--------------------"
 echo "Updating ccls:" 
 cd ccls
 pwd
-gitpull master
+gitpull origin master
 cmake -H. -Brelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=../clang+llvm
 cmake --build release
 cd ..
@@ -48,7 +50,7 @@ echo "--------------------"
 echo "Updating mosh:"
 cd mosh
 pwd
-gitpull master
+gitpull origin master
 ./autogen.sh
 ./configure
 make && sudo make install
@@ -60,7 +62,7 @@ echo "--------------------"
 echo "Updating git:"
 cd git
 pwd
-gitpull master
+gitpull origin master
 make prefix=/usr all doc info
 sudo make prefix=/usr install install-doc install-html install-info
 cd ..
@@ -71,7 +73,7 @@ echo "--------------------"
 echo "Updating SSRSpeed:"
 cd SSRSpeed
 pwd
-gitpull master
+gitpull origin master
 cd ..
 pwd
 echo "SSRSpeed Done"
