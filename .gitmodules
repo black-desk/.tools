@@ -7,15 +7,9 @@
 [submodule "mosh"]
 	path = mosh
 	url = https://github.com/mobile-shell/mosh.git
-[submodule "youdao-note-electron"]
-	path = youdao-note-electron
-	url = https://github.com/jamasBian/youdao-note-electron.git
 [submodule "SSRSpeed"]
 	path = SSRSpeed
 	url = https://github.com/NyanChanMeow/SSRSpeed.git
-[submodule "gnvim"]
-	path = gnvim
-	url = https://github.com/vhakulinen/gnvim
-[submodule "clashr"]
-	path = clashr
-	url = https://github.com/BROBIRD/clash.git
+[submodule "git"]
+	path = git
+	url = https://github.com/git/git

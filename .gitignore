@@ -1,4 +1,4 @@
-clang+llvm-*
+clang+llvm*
 go
 GoLand*
 pycharm*
