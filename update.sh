@@ -37,10 +37,10 @@ echo "ccls Done"
 
 # anaconda
 echo "--------------------"
-echo "Updating anaconda3:"
+echo "Updating conda3:"
 cd anaconda3/bin
 pwd
-./conda update --prefix /home/black_desk/tools/anaconda3 anaconda -y 
+./conda update --prefix $my_tools_dir/anaconda3 anaconda -y 
 cd ../..
 pwd
 echo "anaconda3 Done"
