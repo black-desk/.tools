@@ -6,7 +6,7 @@ gitpull(){
   git checkout $2
   git reset --hard HEAD
   DONE=1
-  while [ $DONE -ne 0  ]; do
+  while [ DONE -ne 0  ]; do
     git pull --recurse-submodules $1 $2
     let DONE=$?
   done
