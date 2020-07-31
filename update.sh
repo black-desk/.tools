@@ -59,17 +59,6 @@ pwd
 echo "mosh Done"
 
 echo "--------------------"
-echo "Updating git:"
-cd git
-pwd
-gitpull origin master
-make prefix=/usr all doc info
-sudo make prefix=/usr install install-doc install-html install-info
-cd ..
-pwd
-echo "git Done"
-
-echo "--------------------"
 echo "Updating SSRSpeed:"
 cd SSRSpeed
 pwd
