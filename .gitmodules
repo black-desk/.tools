@@ -7,3 +7,6 @@
 [submodule "SSRSpeed"]
 	path = SSRSpeed
 	url = https://github.com/NyanChanMeow/SSRSpeed.git
+[submodule "git-subrepo"]
+	path = git-subrepo
+	url = https://github.com/ingydotnet/git-subrepo
