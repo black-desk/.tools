@@ -1,12 +1,20 @@
 [submodule "ccls"]
   path = ccls
   url = https://github.com/MaskRay/ccls
+  branch = master
 [submodule "mosh"]
 	path = mosh
 	url = https://github.com/mobile-shell/mosh.git
-[submodule "SSRSpeed"]
-	path = SSRSpeed
-	url = https://github.com/NyanChanMeow/SSRSpeed.git
+  branch = master
 [submodule "git"]
 	path = git
 	url = https://github.com/git/git
+  branch = master
+[submodule "st"]
+	path = st
+	url = https://git.suckless.org/st/
+  branch = master
+[submodule "neovim"]
+	path = neovim
+	url = https://github.com/neovim/neovim
+	branch = master
