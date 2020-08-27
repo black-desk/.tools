@@ -21,13 +21,6 @@ cmake -H. -Brelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=../clang+llvm
 cmake --build release
 echo "ccls Done"
 
-# anaconda
-echo "--------------------"
-echo "Updating conda3:"
-cd $my_tools_dir/anaconda3/bin
-./conda update --prefix $my_tools_dir/anaconda3 anaconda -y 
-echo "anaconda3 Done"
-
 # mosh
 echo "--------------------"
 echo "Updating mosh:"
@@ -39,8 +32,8 @@ make && sudo make install
 echo "mosh Done"
 
 echo "--------------------"
-echo "Updating SSRSpeed:"
-cd $my_tools_dir/SSRSpeed
+echo "Updating neovim:"
+cd $my_tools_dir/neovim
 gitpull origin master
-echo "SSRSpeed Done"
-echo "--------------------"
+make && sudo make install
+echo "neovim Done"
