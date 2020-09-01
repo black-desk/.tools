@@ -14,7 +14,3 @@
 	path = st
 	url = https://git.suckless.org/st/
   branch = master
-[submodule "neovim"]
-	path = neovim
-	url = https://github.com/neovim/neovim
-	branch = master
