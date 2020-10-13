@@ -14,3 +14,7 @@
 	path = st
 	url = https://git.suckless.org/st/
   branch = master
+[submodule "markpress"]
+	path = markpress
+	url = https://github.com/skywind3000/markpress.git
+	branch = master
